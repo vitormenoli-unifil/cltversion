@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #232323;
+}
+
+header, main, footer {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
+
+main {
+    text-align: start;
+}
+header p {
+    text-decoration: underline;
+}
+
+.section-one, .section-two, .section-three {
+    padding: 2rem;
+}
+
+.section-one h2, .section-two h2, .section-three h2 {
+    margin: 1rem 0;
+}
+
+footer a {
+    color: #d0ff00;
+}
